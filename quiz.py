@@ -37,7 +37,7 @@ print("Qual a capital da (Ucrania)?\n (A)Moscou \n (B)Kiev \n (C)Atenas \n")
 
 questaoDois = input("Resposta: ")
 
-if questaoUm == "B":
+if questaoDois == "B":
     print("Correto!")
     score = score + 1
 else:
@@ -47,16 +47,16 @@ else:
 
 print("Qual a capital da (Equador)?\n (A)Buenos Aires \n (B)Quito \n (C)Guayaquil \n")
 
-questaoUm = input("Resposta: ")
+questaoTres = input("Resposta: ")
 
-if questaoUm == "B":
+if questaoTres == "B":
     print("Correto!")
     score = score + 1
 else:
     print("Incorreto!")
 
 
-print(f"Quiz Finalizado... Seu Score Foi: {score/3}")
+print(f"Quiz Finalizado... Seu Score Foi: {score}/3")
 
 """
 Sistema vai analizar sua pontução através da "f string" que permite escrever e reconhcer valores 
