@@ -39,6 +39,7 @@ questaoDois = input("Resposta: ")
 
 if questaoUm == "B":
     print("Correto!")
+    score = score + 1
 else:
     print("Incorreto!")
 
@@ -50,5 +51,15 @@ questaoUm = input("Resposta: ")
 
 if questaoUm == "B":
     print("Correto!")
+    score = score + 1
 else:
     print("Incorreto!")
+
+
+print(f"Quiz Finalizado... Seu Score Foi: {score/3}")
+
+"""
+Sistema vai analizar sua pontução através da "f string" que permite escrever e reconhcer valores 
+dentro das variavéis com o f antes das aspas duplas e a variavél entre chaves.
+/3 = Porque 3 é a pontuação máxima que o usuário poderá fazer.
+"""
